@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe - Modern</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Tic Tac Toe ✨</h1>
+    <div class="scoreboard">
+      <div class="score">❌ X: <span id="scoreX">0</span></div>
+      <div class="score">⭕ O: <span id="scoreO">0</span></div>
+    </div>
+    <div id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <p id="status">Player ❌'s turn</p>
+    <button id="restartBtn">🔄 Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
